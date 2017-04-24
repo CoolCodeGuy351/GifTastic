@@ -28,7 +28,7 @@ function renderGifs() {
         $('#div-main-section').empty();
 
         var gifName = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifName + "&limit=10&api_key=dc6zaTOxFJmzC";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifName + "&limit=10&api_key=dc6zaTOxFJmzC";
 
         // Creating an AJAX call for the specific gif button being clicked
         $.ajax({
